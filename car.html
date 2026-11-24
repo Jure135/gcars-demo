@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vozilo | G-Cars</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body data-header="solid">
+  <div id="gc-header"></div>
+
+  <main class="gc-detail-top">
+    <div class="container" id="carRoot">
+      <div class="skeleton" style="height:60vh"></div>
+    </div>
+
+    <section class="section bg-gc-light mt-5">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+          <h2 class="gc-title mb-0">Možda vas zanima</h2>
+          <a href="collection.html" class="btn-gc btn-gc-outline-dark">Kompletna kolekcija</a>
+        </div>
+        <div class="gc-car-grid" id="similar"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal fade" id="zoomModal" tabindex="-1" aria-label="Uvećana slika">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-black border-0 rounded-0">
+        <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" style="z-index:3" data-bs-dismiss="modal" aria-label="Zatvori"></button>
+        <img id="zoomImg" alt="Uvećana slika vozila" class="w-100">
+      </div>
+    </div>
+  </div>
+
+  <div id="gc-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script src="js/car.js?v=28"></script>
+</body>
+</html>

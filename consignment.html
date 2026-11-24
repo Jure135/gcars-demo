@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Komisijska prodaja | G-Cars</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body>
+  <div id="gc-header"></div>
+  <main>
+    <section class="gc-hero gc-page-hero">
+      <div class="gc-hero-media">
+        <img src="media/gcars/mercedes-glc-coupe-2.jpg" alt="G-Cars salon">
+      </div>
+      <div class="gc-hero-content">
+        <div class="gc-eyebrow">Ekskluzivne usluge</div>
+        <h1>Zamjena vozila</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 reveal">
+            <div class="gc-eyebrow">Kupite &amp; prodajte</div>
+            <h2 class="gc-title">Ponudite svoje vozilo u zamjenu za neko vozilo iz naše ponude</h2>
+            <p class="fw-bold">Tvrtka specijalizirana za uvoz i prodaju svih vrsta rabljenih motornih vozila.</p>
+            <p>Također dovozimo i vozila po narudžbi prema Vašim željama.</p>
+            <ul class="list-unstyled mt-4">
+              <li class="mb-2"><i class="bi bi-check2 text-tan me-2"></i>Sve vrste plaćanja (gotovinsko – transakcijski, leasing, kredit, kartice)</li>
+              <li class="mb-2"><i class="bi bi-check2 text-tan me-2"></i>Zamjena staro za novo</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 reveal">
+            <div class="bg-gc-light p-4 p-md-5">
+              <h3 class="fs-5 mb-4">Podaci o vašem vozilu</h3>
+              <form class="gc-form" id="consignmentForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6"><label for="cBrand">Marka *</label><input id="cBrand" class="form-control" name="brand" required maxlength="60"><div class="invalid-feedback">Obavezno polje.</div></div>
+                  <div class="col-md-6"><label for="cModel">Model *</label><input id="cModel" class="form-control" name="model" required maxlength="80"><div class="invalid-feedback">Obavezno polje.</div></div>
+                  <div class="col-md-4"><label for="cYear">Godina</label><input id="cYear" class="form-control" type="number" name="year" min="1900" max="2100"></div>
+                  <div class="col-md-4"><label for="cKm">Kilometraža</label><input id="cKm" class="form-control" type="number" name="mileage" min="0"></div>
+                  <div class="col-md-4"><label for="cPrice">Željena cijena (€)</label><input id="cPrice" class="form-control" type="number" name="askingPrice" min="0"></div>
+                  <div class="col-12"><label for="cNotes">Napomena</label><textarea id="cNotes" class="form-control" name="notes" rows="3" maxlength="2000" placeholder="Oprema, povijest servisa, stanje..."></textarea></div>
+                  <div class="col-12"><hr class="my-1"></div>
+                  <div class="col-md-6"><label for="cName">Ime i prezime *</label><input id="cName" class="form-control" name="name" required maxlength="100"><div class="invalid-feedback">Obavezno polje.</div></div>
+                  <div class="col-md-6"><label for="cPhone">Telefon</label><input id="cPhone" class="form-control" name="phone" maxlength="40"></div>
+                  <div class="col-12"><label for="cEmail">E-mail *</label><input id="cEmail" class="form-control" type="email" name="email" required maxlength="150"><div class="invalid-feedback">Unesite ispravan e-mail.</div></div>
+                  <div class="col-12"><button type="submit" class="btn-gc btn-gc-tan w-100">Zatražite besplatnu procjenu</button></div>
+                </div>
+                <div class="gc-form-alert"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-gc-light">
+      <div class="container">
+        <div class="text-center mb-5 reveal"><h2 class="gc-title">Kako funkcionira?</h2></div>
+        <div class="gc-steps">
+          <div class="gc-step reveal"><h4>Procjena</h4><p>Pošaljite nam podatke o vozilu, a mi vam u roku 24 sata dajemo realnu procjenu.</p></div>
+          <div class="gc-step reveal"><h4>Priprema</h4><p>Automobil pregledavamo, pripremamo, fotografiramo i izlažemo u salonu.</p></div>
+          <div class="gc-step reveal"><h4>Oglašavanje</h4><p>Oglašavamo ga međunarodno i predstavljamo našoj mreži privatnih kupaca.</p></div>
+          <div class="gc-step reveal"><h4>Isplata</h4><p>Nakon prodaje dobivate isplatu – sigurno i bez brige o papirologiji.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="gc-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script>document.addEventListener("DOMContentLoaded", () => GC.bindForm(GC.$("#consignmentForm"), "consignment"));</script>
+</body>
+</html>

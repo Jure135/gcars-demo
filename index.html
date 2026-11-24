@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G-Cars | Luksuzni i ekskluzivni automobili, prodaja i iskustvo</title>
+  <meta name="description" content="G-Cars – luksuzni, ekskluzivni, investicijski i sportski automobili. Kupnja, prodaja i komisijska prodaja.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body>
+  <div id="gc-header"></div>
+
+  <main>
+    <!-- HERO s videom iz salona -->
+    <section class="gc-hero gc-hero-video">
+      <div class="gc-hero-media">
+        <video class="bg" id="heroBg" autoplay muted loop playsinline aria-hidden="true"
+               poster="media/gcars/range-rover-velar.jpg"></video>
+      </div>
+      <div class="gc-hero-content">
+        <div class="gc-eyebrow">Kvaliteta kao<br>standard</div>
+        <h1>Automobili, uvoz<br>&amp; prodaja</h1>
+        <div class="gc-hero-buttons">
+          <a href="collection.html" class="btn-gc btn-gc-black">Pogledajte našu ponudu</a>
+          <a href="consignment.html" class="btn-gc btn-gc-black">Ponudite vaše vozilo u zamjenu</a>
+        </div>
+      </div>
+      <div class="gc-hero-phone">
+        <video id="heroVideo" autoplay muted loop playsinline poster="media/gcars/mercedes-glc-coupe.jpg"></video>
+        <button type="button" class="gc-hero-sound" id="heroSound" aria-label="Uključi zvuk"><i class="bi bi-volume-mute"></i></button>
+      </div>
+      <a href="#brands" class="gc-hero-scroll" aria-label="Skrolaj dolje"><i class="bi bi-arrow-down"></i></a>
+    </section>
+
+    <!-- Odaberite marku -->
+    <section class="gc-brand-box-wrap" id="brands">
+      <div class="container">
+        <div class="gc-brand-box reveal">
+          <h2>Odaberite marku</h2>
+          <div class="gc-brand-grid" id="brandGrid">
+            <span class="skeleton" style="width:100%;height:80px"></span>
+          </div>
+          <div class="all"><a href="collection.html" class="btn-gc btn-gc-tan">Sve marke</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Široka slika salona -->
+    <div class="gc-wide-img gc-wide-img-fit mt-5">
+      <img src="media/gcars/porsche-panamera-salon.jpg" alt="G-Cars salon – Porsche Panamera">
+    </div>
+
+    <!-- O nama -->
+    <section class="section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="gc-eyebrow">O nama</div>
+            <h2 class="gc-title">Auto salon G-CARS</h2>
+            <div class="gc-lead-line">
+              <div>
+                <p>Nudimo neusporedivo iskustvo u pronalaženju savršenog automobila – od pouzdanih terenaca do luksuznih SUV-ova.</p>
+                <p>U našem salonu u Kaštel Lukšiću svako vozilo je pažljivo odabrano i pripremljeno. Uvijek idemo korak dalje i uvjereni smo da ćete iz našeg salona otići više nego zadovoljni.</p>
+                <a href="about.html" class="btn-gc btn-gc-dark mt-2">Više o nama</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <div class="gc-collage">
+              <img class="c1" src="media/gcars/mazda-cx5.jpg" alt="Mazda CX-5 u G-Cars salonu">
+              <img class="c2" src="media/gcars/mercedes-glc-coupe-3.jpg" alt="Mercedes GLC Coupé – stražnji pogled">
+              <img class="c3" src="media/gcars/range-rover-velar.jpg" alt="Range Rover Velar u G-Cars salonu">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Iz salona (4 portretne fotografije) -->
+    <section class="section pt-0">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <h2 class="gc-title">U salonu G-CARS</h2>
+          <p class="mx-auto" style="max-width:560px">Pogledajte vozila koja vas trenutno čekaju u našem salonu.</p>
+        </div>
+        <div class="gc-reels" id="showroom"></div>
+      </div>
+    </section>
+
+    <!-- Novo u kolekciji (slider) -->
+    <section class="gc-featured">
+      <div class="text-center bg-white pt-5 pb-4">
+        <h2 class="gc-title mb-0">Novo u našoj kolekciji</h2>
+      </div>
+      <div id="featuredCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner" id="featuredInner">
+          <div class="carousel-item active skeleton"></div>
+        </div>
+      </div>
+      <div class="gc-featured-nav">
+        <button type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev" aria-label="Prethodni"><i class="bi bi-arrow-left"></i></button>
+        <div class="dots" id="featuredDots"></div>
+        <button type="button" data-bs-target="#featuredCarousel" data-bs-slide="next" aria-label="Sljedeći"><i class="bi bi-arrow-right"></i></button>
+      </div>
+      <div class="text-center bg-white pb-5">
+        <a href="collection.html" class="btn-gc btn-gc-tan">Naša kompletna kolekcija</a>
+      </div>
+    </section>
+
+    <!-- Nedavno prodano -->
+    <section class="section pt-4" id="soldSection">
+      <div class="container">
+        <h2 class="gc-section-title reveal">Nedavno prodano</h2>
+        <div class="gc-car-grid" id="soldGrid"></div>
+        <div class="text-center mt-5"><a href="recently-sold.html" class="btn-gc btn-gc-tan">Nedavno prodano</a></div>
+      </div>
+    </section>
+
+    <!-- Komisijska prodaja -->
+    <section class="gc-consign gc-hatch pb-5">
+      <div class="container">
+        <div class="gc-consign-box reveal">
+          <h2>Kupite &amp; prodajte svoj automobil, uz zajamčenu diskreciju.</h2>
+          <a href="consignment.html" class="btn-gc btn-gc-tan">Saznajte više o komisijskoj prodaji</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pronađi i vozi -->
+    <section class="section bg-gc-light mt-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="gc-eyebrow">Pronađi &amp; vozi</div>
+            <h2 class="gc-title">Vaš automobil<br>iz snova</h2>
+            <div class="gc-lead-line">
+              <div>
+                <p>Pronaći pravi automobil san je koji se ostvaruje mnogima. Od prvog pogleda do trenutka kad sjednete, upalite motor i krenete – u G-Carsu znamo koliko je taj trenutak poseban.</p>
+                <p>Zato kod nas pronalazite samo automobile koji ispunjavaju sva vaša očekivanja – i više od toga.</p>
+                <a href="collection.html" class="btn-gc btn-gc-dark mt-2">Pogledajte ponudu</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <div class="gc-collage">
+              <img class="c1" src="media/gcars/discovery-sport.jpg" alt="Land Rover Discovery Sport">
+              <img class="c2" src="media/gcars/toyota-hilux.jpg" alt="Toyota Hilux">
+              <img class="c3" src="media/gcars/mercedes-glc-coupe-2.jpg" alt="Mercedes GLC Coupé u G-Cars salonu">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Radno vrijeme -->
+    <section class="section gc-hatch position-relative">
+      <div class="container">
+        <div class="gc-tan-box reveal">
+          <h2>Posjetite naš salon u Kaštel Lukšiću</h2>
+          <div class="gc-hours" id="homeHours"></div>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <button type="button" class="btn-gc btn-gc-dark" data-bs-toggle="collapse" data-bs-target="#visitForm"
+                    aria-expanded="false" aria-controls="visitForm">Dogovorite posjet <i class="bi bi-chevron-down"></i></button>
+            <a href="#" class="btn-gc btn-gc-outline-dark" id="homeWhatsapp" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+          </div>
+
+          <!-- Obrazac za dogovor posjeta – otvara se ovdje, bez odlaska na drugu stranicu -->
+          <div class="collapse" id="visitForm">
+            <form class="gc-form gc-visit-form" id="visitFormEl" novalidate>
+              <h3>Dogovorite posjet salonu</h3>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="vName">Ime i prezime *</label><input id="vName" class="form-control" name="name" required maxlength="100" autocomplete="name"><div class="invalid-feedback">Unesite ime.</div></div>
+                <div class="col-md-6"><label for="vPhone">Telefon *</label><input id="vPhone" type="tel" class="form-control" name="phone" required maxlength="40" autocomplete="tel"><div class="invalid-feedback">Unesite broj telefona.</div></div>
+                <div class="col-md-6"><label for="vEmail">E-mail *</label><input id="vEmail" type="email" class="form-control" name="email" required maxlength="150" autocomplete="email"><div class="invalid-feedback">Unesite ispravan e-mail.</div></div>
+                <div class="col-6 col-md-3"><label for="vDate">Datum *</label><input id="vDate" type="date" class="form-control" required><div class="invalid-feedback">Odaberite datum.</div></div>
+                <div class="col-6 col-md-3"><label for="vTime">Vrijeme</label>
+                  <select id="vTime" class="form-select">
+                    <option value="">Bilo kada</option>
+                    <option>08:00 – 10:00</option><option>10:00 – 12:00</option><option>12:00 – 14:00</option>
+                    <option>14:00 – 16:00</option><option>16:00 – 18:00</option><option>18:00 – 20:00</option>
+                    <option value="Po dogovoru">Po dogovoru</option>
+                  </select>
+                </div>
+                <div class="col-12"><label for="vNote">Napomena</label><textarea id="vNote" class="form-control" rows="3" maxlength="1500" placeholder="Npr. vozilo koje vas zanima ili želite probnu vožnju"></textarea></div>
+                <div class="col-12 form-check ms-1">
+                  <input class="form-check-input" type="checkbox" id="vPrivacy" required>
+                  <label class="form-check-label" for="vPrivacy" style="text-transform:none;font-weight:400;letter-spacing:0">Slažem se s obradom osobnih podataka u svrhu dogovora posjeta. *</label>
+                </div>
+                <div class="col-12"><button type="submit" class="btn-gc btn-gc-tan">Pošalji zahtjev</button></div>
+              </div>
+              <div class="gc-form-alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="gc-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script src="js/home.js?v=28"></script>
+</body>
+</html>

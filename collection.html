@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kolekcija | G-Cars</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body>
+  <div id="gc-header"></div>
+
+  <main>
+    <section class="gc-hero gc-page-hero">
+      <div class="gc-hero-media">
+        <img src="media/gcars/volvo-xc90.jpg" alt="G-Cars salon">
+      </div>
+      <div class="gc-hero-content">
+        <h1>Naša<br>kolekcija</h1>
+      </div>
+    </section>
+
+    <section class="gc-brand-box-wrap">
+      <div class="container">
+        <div class="gc-brand-box">
+          <h2>MARKE</h2>
+          <div class="gc-brand-grid" id="brandGrid"></div>
+          <div class="all"><button type="button" class="btn-gc btn-gc-tan" id="allBrands">Sve marke</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="gc-title text-center mb-5">Pogledajte našu ponudu</h2>
+        <div class="gc-toolbar">
+          <div class="filters">
+            <input type="search" class="form-control" id="fQ" placeholder="Pretraži model, marku, boju..." style="max-width:280px">
+            <select class="form-select" id="fFuel" style="max-width:180px" aria-label="Gorivo">
+              <option value="">Sva goriva</option>
+              <option value="Benzin">Benzin</option>
+              <option value="Dizel">Dizel</option>
+              <option value="Hibrid">Hibrid</option>
+              <option value="Električni">Električni</option>
+            </select>
+            <select class="form-select" id="fMax" style="max-width:180px" aria-label="Maksimalna cijena">
+              <option value="">Bilo koja cijena</option>
+              <option value="150000">do € 150.000</option>
+              <option value="250000">do € 250.000</option>
+              <option value="400000">do € 400.000</option>
+            </select>
+          </div>
+          <select class="form-select" id="fSort" style="max-width:220px" aria-label="Sortiraj">
+            <option value="newest">Najnovije</option>
+            <option value="price-asc">Cijena: od najniže</option>
+            <option value="price-desc">Cijena: od najviše</option>
+            <option value="year-desc">Godina: najnovije</option>
+            <option value="mileage-asc">Kilometraža: najmanja</option>
+            <option value="brand">Marka (A–Ž)</option>
+          </select>
+        </div>
+        <div class="gc-count mb-3" id="count"></div>
+        <div class="gc-car-grid" id="carGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="gc-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script src="js/collection.js?v=28"></script>
+</body>
+</html>

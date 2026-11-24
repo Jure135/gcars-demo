@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nedavno prodano | G-Cars</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body>
+  <div id="gc-header"></div>
+  <main>
+    <section class="gc-hero gc-page-hero short">
+      <div class="gc-hero-media">
+        <img src="media/gcars/mercedes-glc-coupe-3.jpg" alt="G-Cars salon">
+      </div>
+      <div class="gc-hero-content">
+        <div class="gc-eyebrow">Kolekcija</div>
+        <h1>Nedavno<br>prodano</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="text-center mx-auto mb-5" style="max-width:640px">Ova vozila su pronašla novog vlasnika. Tražite sličan automobil? Javite nam se – pomoću naše međunarodne mreže pronaći ćemo ga za vas.</p>
+        <div class="gc-car-grid" id="soldGrid"></div>
+      </div>
+    </section>
+
+    <section class="gc-cta-band section">
+      <img src="media/img/photo-1653565217811-85b41bcd1edb.jpg" alt="Predaja ključeva">
+      <div class="container">
+        <div class="row"><div class="col-lg-6">
+          <h2 class="gc-title">Želite prodati svoj automobil?</h2>
+          <p>Kupujemo i prodajemo luksuzne i hiperautomobile – diskrecija zajamčena.</p>
+          <a href="consignment.html" class="btn-gc btn-gc-tan">Komisijska prodaja</a>
+        </div></div>
+      </div>
+    </section>
+  </main>
+  <div id="gc-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const grid = GC.$("#soldGrid");
+      try {
+        const cars = await GC.api("cars?sold=true");
+        grid.innerHTML = cars.map(GC.carCard).join("") || `<div class="gc-empty">Trenutno nema prodanih vozila za prikaz.</div>`;
+        GC.initReveal(grid);
+      } catch { GC.apiError(grid); }
+    });
+  </script>
+</body>
+</html>

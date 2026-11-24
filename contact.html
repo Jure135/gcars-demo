@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt | G-Cars</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=28" rel="stylesheet">
+  <script src="js/i18n.js?v=28"></script>
+</head>
+<body>
+  <div id="gc-header"></div>
+  <main>
+    <section class="gc-hero gc-page-hero short">
+      <div class="gc-hero-media">
+        <img src="media/gcars/mazda-cx5.jpg" alt="G-Cars salon">
+      </div>
+      <div class="gc-hero-content">
+        <div class="gc-eyebrow">Zainteresirani?</div>
+        <h1>Kontakt</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-7 reveal">
+            <h2 class="gc-title">Pošaljite nam poruku</h2>
+            <p class="mb-4">Želite saznati više o našim automobilima ili uslugama, ili želite probnu vožnju? Ispunite obrazac i javit ćemo vam se u najkraćem roku.</p>
+            <form class="gc-form" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="name">Ime i prezime *</label><input id="name" class="form-control" name="name" required maxlength="100"><div class="invalid-feedback">Unesite ime.</div></div>
+                <div class="col-md-6"><label for="email">E-mail *</label><input id="email" type="email" class="form-control" name="email" required maxlength="150"><div class="invalid-feedback">Unesite ispravan e-mail.</div></div>
+                <div class="col-md-6"><label for="phone">Telefon</label><input id="phone" class="form-control" name="phone" maxlength="40"></div>
+                <div class="col-md-6"><label for="subject">Tema</label>
+                  <select id="subject" class="form-select" name="subject">
+                    <option value="Opći upit">Opći upit</option>
+                    <option value="Probna vožnja">Probna vožnja</option>
+                    <option value="Kupnja vozila">Kupnja vozila</option>
+                    <option value="Prodaja / komisija">Prodaja / komisija</option>
+                    <option value="Financiranje">Financiranje</option>
+                  </select>
+                </div>
+                <div class="col-12"><label for="message">Poruka *</label><textarea id="message" class="form-control" name="message" rows="6" required minlength="5" maxlength="2000"></textarea><div class="invalid-feedback">Poruka mora imati barem 5 znakova.</div></div>
+                <div class="col-12 form-check ms-1">
+                  <input class="form-check-input" type="checkbox" id="privacy" required>
+                  <label class="form-check-label text-transform-none" for="privacy" style="text-transform:none;font-weight:400;letter-spacing:0">Slažem se s obradom osobnih podataka u svrhu odgovora na upit. *</label>
+                </div>
+                <div class="col-12"><button type="submit" class="btn-gc btn-gc-tan">Pošalji poruku</button></div>
+              </div>
+              <div class="gc-form-alert"></div>
+            </form>
+          </div>
+          <div class="col-lg-5 reveal">
+            <div class="gc-contact-card" id="contactCard"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <iframe class="gc-map" title="Lokacija G-Cars salona" loading="lazy"
+      src="https://www.google.com/maps?q=Marka+Ka%C5%BEoti%C4%87a+6,+21215+Ka%C5%A1tel+Lu%C5%A1i%C4%87,+Hrvatska&amp;z=16&amp;output=embed" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </main>
+  <div id="gc-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js?v=28"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const c = GC.CONTACT;
+      GC.$("#contactCard").innerHTML = `
+        <h3>Salon</h3>
+        <div class="item"><i class="bi bi-geo-alt"></i><div>${c.street}<br>${c.city}<br>${c.country}<br>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.street + ", " + c.city)}" target="_blank" rel="noopener" class="link-tan">${GC.t("Prikaži na karti")}</a></div></div>
+        <div class="item"><i class="bi bi-telephone"></i><a href="${c.phoneHref}">${c.phone}</a></div>
+        <div class="item"><i class="bi bi-whatsapp"></i><a href="${c.whatsapp}" target="_blank" rel="noopener">${c.mobile}</a></div>
+        <div class="item"><i class="bi bi-envelope"></i><a href="mailto:${c.email}">${c.email}</a></div>
+        <h3 class="mt-4">Radno vrijeme</h3>
+        <div class="item"><i class="bi bi-clock"></i><div>${GC.t(c.hours)}<br>${GC.t(c.hoursNote)}</div></div>`;
+      GC.bindForm(GC.$("#contactForm"), "contact");
+    });
+  </script>
+</body>
+</html>
