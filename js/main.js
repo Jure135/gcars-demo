@@ -137,6 +137,11 @@ const GC = (() => {
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zatvori"></button>
       </div>
       <div class="offcanvas-body">
+        <!-- Tražilica u izborniku (na mobitelu je u headeru nema mjesta) -->
+        <form class="gc-search gc-search-menu" action="collection.html" role="search">
+          <input type="search" name="q" placeholder="Pretraži..." aria-label="Pretraži vozila">
+          <button type="submit" aria-label="Traži"><i class="bi bi-search"></i></button>
+        </form>
         <ul class="gc-menu-links">
           ${NAV.map(n => `
             <li>

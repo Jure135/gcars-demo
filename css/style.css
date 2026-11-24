@@ -105,6 +105,10 @@ img { max-width: 100%; display: block; }
 .gc-search input:focus { width: 220px; }
 .gc-search input::placeholder { color: rgba(255,255,255,.8); }
 .gc-search button { background: none; border: 0; color: #fff; padding: 2px 4px; }
+/* Tražilica u bočnom izborniku – vidljiva samo na mobitelu */
+.gc-search-menu { display: none; margin-bottom: 1.6rem; }
+.gc-search-menu input, .gc-search-menu input:focus { width: 100%; flex: 1; font-size: 1rem; padding: 8px 0; }
+.gc-search-menu button { font-size: 1.1rem; }
 /* Prekidač jezika HR | EN */
 .gc-lang { display: flex; align-items: center; }
 .gc-lang button {
@@ -555,7 +559,8 @@ html.gc-i18n-pending body { visibility: hidden; }
 }
 @media (max-width: 767px) {
   :root { --gc-header-h: 64px; }
-  .gc-search { display: none; }
+  .gc-header .gc-search { display: none; }
+  .gc-search-menu { display: flex; }
   .gc-header .container-fluid { padding: 0 16px; }
   :root { --gc-logo-h: 24px; }
   .gc-brand-box-wrap { padding: 56px 0; }
