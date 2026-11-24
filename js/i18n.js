@@ -263,8 +263,8 @@ const I18N = (() => {
     "Gdje strast": "Where passion",
     "pronalazi": "finds the",
     "cestu": "road",
-    "Više od 15 godina spajamo vozače s automobilima iz snova – pažljivo odabranima, temeljito provjerenima i predanima uz osobnu uslugu.":
-      "For more than 15 years we have been matching drivers with their dream cars – carefully selected, thoroughly inspected and handed over with a personal service.",
+    "Više od 20 godina spajamo vozače s automobilima iz snova – pažljivo odabranima, temeljito provjerenima i predanima uz osobnu uslugu.":
+      "For more than 20 years we have been matching drivers with their dream cars – carefully selected, thoroughly inspected and handed over with a personal service.",
     "Naša priča": "Our story",
     "Strast koja je postala posao": "A passion that became a business",
     "G-CARS je nastao iz ljubavi prema iznimnim automobilima. Ono što je počelo kao hobi preraslo je u jednog od vodećih trgovaca luksuznim i sportskim automobilima u regiji.":
