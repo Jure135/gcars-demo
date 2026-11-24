@@ -280,7 +280,14 @@ html.gc-i18n-pending body { visibility: hidden; }
 .gc-collage .c2 { left: 10%; top: 12%; width: 44%; height: 38%; z-index: 2; }
 .gc-collage .c3 { left: 0; bottom: 0; width: 100%; height: 58%; z-index: 1; }
 .gc-lead-line { display: flex; gap: 1.2rem; }
-.gc-lead-line::before { content: ""; flex: 0 0 48px; height: 1px; background: var(--gc-text); margin-top: .85em; }
+/* Dvije kose crte kao u logu: gornja duža, donja ~61 % duljine, centrirana */
+.gc-lead-line::before {
+  content: ""; flex: 0 0 48px; height: 7px; margin-top: calc(.85em - 3px);
+  background:
+    linear-gradient(var(--gc-text), var(--gc-text)) top center / 100% 2px no-repeat,
+    linear-gradient(var(--gc-text), var(--gc-text)) bottom center / 61% 2px no-repeat;
+  transform: skewX(-40deg);
+}
 
 /* Komisijska prodaja – svijetli okvir u sredini */
 .gc-consign { position: relative; }
