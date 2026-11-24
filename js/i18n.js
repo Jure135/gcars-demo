@@ -292,8 +292,8 @@ const I18N = (() => {
     "Diskrecija": "Discretion",
     "Kupnja i prodaja uz potpunu diskreciju – vaša privatnost nam je na prvom mjestu.": "Buying and selling with complete discretion – your privacy comes first.",
     "Posjetite naš salon": "Visit our showroom",
-    "U našem modernom salonu u Kaštel Lukšiću uvijek vas očekuje više od 30 iznimnih automobila. Uz kavu, u opuštenoj atmosferi, rado ćemo vam predstaviti svako vozilo i dogovoriti probnu vožnju.":
-      "More than 30 exceptional cars are always waiting for you in our modern showroom in Kaštel Lukšić. Over a coffee, in a relaxed atmosphere, we will gladly present every vehicle and arrange a test drive.",
+    "U našem modernom salonu u Kaštel Lukšiću uvijek vas očekuje više od 50 iznimnih automobila. Uz kavu, u opuštenoj atmosferi, rado ćemo vam predstaviti svako vozilo i dogovoriti probnu vožnju.":
+      "More than 50 exceptional cars are always waiting for you in our modern showroom in Kaštel Lukšić. Over a coffee, in a relaxed atmosphere, we will gladly present every vehicle and arrange a test drive.",
     "Radno vrijeme:": "Opening hours:",
     "Radno vrijeme": "Opening hours",
     "Pon – Pet: 09:00 – 18:00": "Mon – Fri: 09:00 – 18:00",
