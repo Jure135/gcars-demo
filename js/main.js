@@ -191,7 +191,7 @@ const GC = (() => {
             <p>Želite saznati više o našim automobilima ili uslugama, ili želite probnu vožnju? Javite nam se. Naravno, uvijek ste dobrodošli u naš salon.</p>
             <div class="actions">
               <a href="contact.html" class="btn-gc btn-gc-tan">Kontakt</a>
-              <a href="${CONTACT.whatsapp}" target="_blank" rel="noopener" class="btn-gc btn-gc-outline"><i class="bi bi-whatsapp"></i> ${CONTACT.mobile}</a>
+              <a href="${CONTACT.whatsapp}" target="_blank" rel="noopener" class="btn-gc btn-gc-black"><i class="bi bi-whatsapp"></i> ${CONTACT.mobile}</a>
             </div>
           </div>
           <div class="col-6 col-md-3 col-lg-2">
