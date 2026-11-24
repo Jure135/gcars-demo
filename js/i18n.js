@@ -267,7 +267,7 @@ const I18N = (() => {
       "For more than 15 years we have been matching drivers with their dream cars – carefully selected, thoroughly inspected and handed over with a personal service.",
     "Naša priča": "Our story",
     "Strast koja je postala posao": "A passion that became a business",
-    "G-Cars je nastao iz ljubavi prema iznimnim automobilima. Ono što je počelo kao hobi preraslo je u jednog od vodećih trgovaca luksuznim i sportskim automobilima u regiji.":
+    "G-CARS je nastao iz ljubavi prema iznimnim automobilima. Ono što je počelo kao hobi preraslo je u jednog od vodećih trgovaca luksuznim i sportskim automobilima u regiji.":
       "G-Cars was born out of a love for exceptional cars. What started as a hobby has grown into one of the leading luxury and sports car dealers in the region.",
     "Specijalizirani smo za kupnju i prodaju ekskluzivnih, investicijskih i sportskih automobila te mladih klasika. Svaki automobil u našoj ponudi pažljivo je odabran, detaljno pregledan i dolazi s potpunom poviješću održavanja.":
       "We specialise in buying and selling exclusive, investment and sports cars as well as youngtimers. Every car we offer is carefully selected, thoroughly inspected and comes with a complete maintenance history.",
