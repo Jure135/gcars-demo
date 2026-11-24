@@ -129,6 +129,7 @@ const I18N = (() => {
     "Diskrecija zajamčena. Mi se brinemo za procjenu, fotografiranje, oglašavanje, pregovore i papirologiju – vi samo potpišete.":
       "Discretion guaranteed. We take care of the valuation, photography, advertising, negotiations and paperwork – all you do is sign.",
     "Saznajte više o komisijskoj prodaji": "Learn more about consignment sales",
+    "Saznajte više o zamjeni vozila": "Learn more about vehicle trade-in",
     "Predaja ključeva automobila": "Handing over car keys",
     "Pronađi & vozi": "Find & drive",
     "Automobil": "Your dream",
