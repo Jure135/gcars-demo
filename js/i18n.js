@@ -335,6 +335,7 @@ const I18N = (() => {
     "G-Cars salon – Volvo XC90": "G-Cars showroom – Volvo XC90",
     "Mazda CX-5 u G-Cars salonu": "Mazda CX-5 at the G-Cars showroom",
     "Bijeli Maserati Levante u G-Cars salonu": "White Maserati Levante at the G-Cars showroom",
+    "Maserati Levante – interijer i logo na podu": "Maserati Levante – interior and logo projection",
     "Range Rover Velar u G-Cars salonu": "Range Rover Velar at the G-Cars showroom",
     "Mercedes GLC Coupé u G-Cars salonu": "Mercedes GLC Coupé at the G-Cars showroom",
     "Mercedes GLC Coupé u salonu": "Mercedes GLC Coupé in the showroom",
