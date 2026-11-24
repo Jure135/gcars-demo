@@ -280,7 +280,7 @@ const I18N = (() => {
     "% zadovoljnih kupaca": "% satisfied customers",
     "Garaža s automobilima": "Garage full of cars",
     "Naše vrijednosti": "Our values",
-    "Zašto G-Cars?": "Why G-Cars?",
+    "Zašto G-CARS?": "Why G-CARS?",
     "Pažljivo odabrano": "Carefully selected",
     "Svaki automobil prolazi detaljan tehnički pregled i provjeru povijesti prije nego uđe u ponudu.":
       "Every car undergoes a detailed technical inspection and history check before it joins our collection.",
