@@ -223,7 +223,7 @@ const GC = (() => {
           </div>
         </div>
         <div class="gc-footer-bottom">
-          <span>G. CARS d.o.o.</span>
+          <span>G. CARS d.o.o. © ${new Date().getFullYear()}</span>
           <a href="#">Uvjeti poslovanja</a>
           <a href="#">Privatnost</a>
           <a href="#">Impresum</a>
