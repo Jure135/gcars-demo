@@ -195,19 +195,19 @@ const GC = (() => {
             </div>
           </div>
           <div class="col-6 col-md-3 col-lg-2">
-            <h5>OTKRIJTE</h5>
-            <ul class="gc-footer-links">
-              <li><a href="collection.html">Kolekcija</a></li>
-              <li><a href="recently-sold.html">Nedavno prodano</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2">
             <h5>PONUDA</h5>
             <ul class="gc-footer-links">
               <li><a href="about.html">O nama</a></li>
               <li><a href="services.html">Ekskluzivne usluge</a></li>
               <li><a href="consignment.html">Komisijska prodaja</a></li>
               <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <h5>OTKRIJTE</h5>
+            <ul class="gc-footer-links">
+              <li><a href="collection.html">Kolekcija</a></li>
+              <li><a href="recently-sold.html">Nedavno prodano</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg-2">
