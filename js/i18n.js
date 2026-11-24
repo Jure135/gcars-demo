@@ -70,6 +70,7 @@ const I18N = (() => {
     "Na vrh": "Back to top",
     "Jezik": "Language",
     "Zainteresirani?": "Interested?",
+    "Imate pitanja?": "Any questions?",
     "Želite saznati više o našim automobilima ili uslugama, ili želite probnu vožnju? Javite nam se. Naravno, uvijek ste dobrodošli u naš salon.":
       "Want to learn more about our cars or services, or would you like a test drive? Just let us know. Of course, you are always welcome to visit our showroom.",
     "OTKRIJTE": "DISCOVER",

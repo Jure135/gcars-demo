@@ -187,7 +187,7 @@ const GC = (() => {
         <div class="row gy-5 gx-4">
           <!-- Poziv na kontakt -->
           <div class="col-lg-4 gc-footer-cta">
-            <h3>Zainteresirani?</h3>
+            <h3>Imate pitanja?</h3>
             <p>Želite saznati više o našim automobilima ili uslugama, ili želite probnu vožnju? Javite nam se. Naravno, uvijek ste dobrodošli u naš salon.</p>
             <div class="actions">
               <a href="contact.html" class="btn-gc btn-gc-tan">Kontakt</a>
