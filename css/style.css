@@ -204,7 +204,7 @@ html.gc-i18n-pending body { visibility: hidden; }
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(90deg, rgba(0,0,0,.65) 0%, rgba(0,0,0,.25) 55%, rgba(0,0,0,.1) 100%);
 }
-.gc-hero-content { position: relative; z-index: 2; padding: 0 3.5vw; max-width: 900px; top: 8vh; }   /* tekst malo niže od sredine */
+.gc-hero-content { position: relative; z-index: 2; padding: 0 3.5vw; max-width: 900px; top: 14vh; }   /* tekst malo niže od sredine */
 .gc-hero h1 { font-size: clamp(2.4rem, 6vw, 5.2rem); margin-bottom: 2rem; }
 .gc-hero .gc-eyebrow { font-size: .8rem; }
 .gc-hero-buttons { display: flex; flex-wrap: wrap; gap: .75rem; }
