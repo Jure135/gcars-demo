@@ -314,6 +314,15 @@ const I18N = (() => {
     "Pogledajte vozila koja vas trenutno čekaju u našem salonu.": "Take a look at the vehicles currently waiting for you in our showroom.",
     "Kupite & prodajte svoj automobil, uz zajamčenu diskreciju.": "Buy & sell your car, discretion guaranteed.",
     "Vozilo po vašem ukusu": "A vehicle to your taste",
+    "Osobni pristup": "Personal approach",
+    "Sastanak sa prodajnim predstavnikom": "Meeting with a sales representative",
+    "Kupnja automobila zaslužuje vrijeme i pažnju. Dogovorite sastanak s našim prodajnim predstavnikom i u ugodnom ambijentu našeg salona, uz kavu i bez žurbe, razgovarajte o vozilu koje vas zanima.": "Buying a car deserves time and attention. Book a meeting with our sales representative and talk about the vehicle you are interested in, in the comfortable setting of our showroom – over a coffee and without any rush.",
+    "Pokazat ćemo vam vozilo uživo, odgovoriti na sva pitanja o opremi, stanju i cijeni, dogovoriti probnu vožnju i predstaviti vam mogućnost zamjene vašeg vozila. Bez obveze – samo iskren savjet i osobni pristup.": "We will show you the vehicle in person, answer all your questions about equipment, condition and price, arrange a test drive and present the option of trading in your current vehicle. No obligation – just honest advice and a personal approach.",
+    "Dogovorite sastanak": "Book a meeting",
+    "Prostor za sastanke u G-Cars salonu": "Meeting area in the G-Cars showroom",
+    "Kava za naše goste": "Coffee for our guests",
+    "Recepcija G-Cars salona": "G-Cars showroom reception",
+    "G-Cars šalica kave u salonu": "G-Cars coffee mug in the showroom",
     "Pronaći pravi automobil san je koji se ostvaruje mnogima. Od prvog pogleda do trenutka kad sjednete, upalite motor i krenete – u G-Carsu znamo koliko je taj trenutak poseban.":
       "Finding the right car is a dream that comes true for many. From the first look to the moment you sit down, start the engine and drive off – at G-Cars we know how special that moment is.",
     "Zato kod nas pronalazite samo automobile koji ispunjavaju sva vaša očekivanja – i više od toga.":
