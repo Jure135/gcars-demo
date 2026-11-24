@@ -287,8 +287,8 @@ const I18N = (() => {
     "Potpuna transparentnost": "Full transparency",
     "Jasne cijene, kompletna dokumentacija i iskren savjet – bez skrivenih troškova.": "Clear prices, complete documentation and honest advice – no hidden costs.",
     "Usluga Plus": "Service Plus",
-    "Financiranje, osiguranje, dostava na kućnu adresu i pomoć pri registraciji u inozemstvu.":
-      "Financing, insurance, home delivery and help with registration abroad.",
+    "Financiranje, osiguranje, dostava na kućnu adresu i pomoć pri registraciji.":
+      "Financing, insurance, home delivery and help with registration.",
     "Diskrecija": "Discretion",
     "Kupnja i prodaja uz potpunu diskreciju – vaša privatnost nam je na prvom mjestu.": "Buying and selling with complete discretion – your privacy comes first.",
     "Posjetite naš salon": "Visit our showroom",
