@@ -53,6 +53,7 @@ const I18N = (() => {
     "Početna": "Home",
     "O nama": "About us",
     "Kolekcija": "Collection",
+    "Trenutno na stanju": "Currently in stock",
     "Novosti & blog": "News & blog",
     "Nedavno prodano": "Recently sold",
     "Ekskluzivne usluge": "Exclusive services",
