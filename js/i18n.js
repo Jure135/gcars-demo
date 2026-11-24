@@ -323,7 +323,7 @@ const I18N = (() => {
     "Kava za naše goste": "Coffee for our guests",
     "Recepcija G-Cars salona": "G-Cars showroom reception",
     "G-Cars šalica kave u salonu": "G-Cars coffee mug in the showroom",
-    "Pronaći pravi automobil san je koji se ostvaruje mnogima. Od prvog pogleda do trenutka kad sjednete, upalite motor i krenete – u G-Carsu znamo koliko je taj trenutak poseban.":
+    "Pronaći pravi automobil san je koji se ostvaruje mnogima. Od prvog pogleda do trenutka kad sjednete, upalite motor i krenete u G-CARS znamo koliko je taj trenutak poseban.":
       "Finding the right car is a dream that comes true for many. From the first look to the moment you sit down, start the engine and drive off – at G-Cars we know how special that moment is.",
     "Zato kod nas pronalazite samo automobile koji ispunjavaju sva vaša očekivanja – i više od toga.":
       "That is why you will only find cars with us that meet all your expectations – and more.",
