@@ -311,7 +311,7 @@ const I18N = (() => {
     "U salonu G-CARS": "In the G-CARS showroom",
     "Pogledajte vozila koja vas trenutno čekaju u našem salonu.": "Take a look at the vehicles currently waiting for you in our showroom.",
     "Kupite & prodajte svoj automobil, uz zajamčenu diskreciju.": "Buy & sell your car, discretion guaranteed.",
-    "Vaš automobil": "Your dream",
+    "Vozilo po vašem ukusu": "A vehicle to your taste",
     "Pronaći pravi automobil san je koji se ostvaruje mnogima. Od prvog pogleda do trenutka kad sjednete, upalite motor i krenete – u G-Carsu znamo koliko je taj trenutak poseban.":
       "Finding the right car is a dream that comes true for many. From the first look to the moment you sit down, start the engine and drive off – at G-Cars we know how special that moment is.",
     "Zato kod nas pronalazite samo automobile koji ispunjavaju sva vaša očekivanja – i više od toga.":
