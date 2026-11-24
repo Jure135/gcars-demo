@@ -210,7 +210,7 @@ const GC = (() => {
             </ul>
           </div>
           <div class="col-6 col-md-3 col-lg-2">
-            <h5>SALON</h5>
+            <h5>PRODAJNI SALON</h5>
             <div class="gc-footer-text">
               <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONTACT.street + ", " + CONTACT.city)}" target="_blank" rel="noopener">${CONTACT.street}<br>${CONTACT.city}<br>${CONTACT.country}</a><br>
               <a href="${CONTACT.phoneHref}">${CONTACT.phone}</a><br>

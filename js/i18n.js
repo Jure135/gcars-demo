@@ -76,6 +76,7 @@ const I18N = (() => {
       "Want to learn more about our cars or services, or would you like a test drive? Just let us know. Of course, you are always welcome to visit our showroom.",
     "OTKRIJTE": "DISCOVER",
     "SALON": "SHOWROOM",
+    "PRODAJNI SALON": "SALES SHOWROOM",
     "PONUDA": "OFFER",
     "Hrvatska": "Croatia",
     "Uvjeti poslovanja": "Terms and conditions",
