@@ -484,6 +484,7 @@ const I18N = (() => {
     "Slažem se s obradom osobnih podataka u svrhu odgovora na upit. *": "I agree to the processing of my personal data for the purpose of answering my enquiry. *",
     "Pošalji poruku": "Send message",
     "Salon": "Showroom",
+    "Prodajni salon": "Sales showroom",
     "Prikaži na karti": "Show on map",
     "Adresa": "Address",
     "Lokacija G-Cars salona": "G-Cars showroom location",
