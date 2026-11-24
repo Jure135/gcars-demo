@@ -271,7 +271,11 @@ html.gc-i18n-pending body { visibility: hidden; }
 
 /* ---------- O nama ---------- */
 .gc-about-img { position: relative; }
-.gc-about-img img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.gc-about-img img, .gc-about-img video { display: block; width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+/* Uspravni video (O nama – Posjetite naš salon): prikazan cijeli, bez rezanja i uvećavanja */
+.gc-about-video { max-width: 340px; margin: 0 auto; }
+.gc-about-video video { aspect-ratio: 352 / 624; }
+.gc-about-video::before { width: 90%; height: 45%; }
 .gc-about-img::before {
   content: ""; position: absolute; left: -24px; top: -24px; width: 45%; height: 60%;
   background: repeating-linear-gradient(135deg, var(--gc-light) 0 2px, transparent 2px 14px); z-index: -1;
