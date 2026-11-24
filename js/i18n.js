@@ -385,7 +385,7 @@ const I18N = (() => {
     "prodaja": "sales",
     "Sportski automobil u Monaku": "Sports car in Monaco",
     "Kupite & prodajte": "Buy & sell",
-    "Ponudite svoje vozilo u zamjenu za neko vozilo iz naše ponude": "Offer your vehicle in exchange for one from our range",
+    "Ponudite vaše vozilo u zamjenu za neko vozilo iz naše ponude": "Offer your vehicle in exchange for one from our range",
     "Prodaja ekskluzivnog automobila zahtijeva stručnost, mrežu kupaca i vrijeme. Mi preuzimamo sve umjesto vas.":
       "Selling an exclusive car takes expertise, a network of buyers and time. We take care of everything for you.",
     "Vaš automobil izlažemo u našem salonu, profesionalno ga fotografiramo i snimamo te oglašavamo na međunarodnim platformama i među našim privatnim kupcima. Pregovore, provjeru kupca, plaćanje i papirologiju odrađujemo mi – potpuno transparentno.":
