@@ -199,7 +199,6 @@ const GC = (() => {
             <ul class="gc-footer-links">
               <li><a href="about.html">O nama</a></li>
               <li><a href="services.html">Ekskluzivne usluge</a></li>
-              <li><a href="consignment.html">Komisijska prodaja</a></li>
               <li><a href="contact.html">Kontakt</a></li>
             </ul>
           </div>
