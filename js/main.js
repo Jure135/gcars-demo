@@ -182,7 +182,7 @@ const GC = (() => {
     el.outerHTML = `
     <footer class="gc-footer">
       <div class="container">
-        <a href="index.html" class="gc-footer-logo" aria-label="G-Cars početna">${logoImg("white")}</a>
+        <a href="index.html" class="gc-footer-logo" aria-label="G-Cars početna"><img src="img/logo-456-white.png?v=1" alt="G-Cars Auto salon" width="345" height="116"></a>
 
         <div class="row gy-5 gx-4">
           <!-- Poziv na kontakt -->

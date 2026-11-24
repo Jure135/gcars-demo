@@ -415,7 +415,8 @@ html.gc-i18n-pending body { visibility: hidden; }
 /* ---------- Footer ---------- */
 .gc-footer { background: var(--gc-dark); color: #fff; padding: 70px 0 30px; font-size: .9rem; }
 .gc-footer-logo { display: flex; justify-content: center; margin-bottom: 50px; }
-.gc-footer-logo img { height: var(--gc-logo-h); width: auto; }
+.gc-footer-logo img { height: 72px; width: auto; }   /* logo s natpisom AUTO SALON (img/logo-456-white.png) */
+@media (max-width: 767px) { .gc-footer-logo img { height: 56px; } }
 .gc-footer a:hover { color: var(--gc-tan); }
 
 /* Poziv na kontakt – prvi stupac */
