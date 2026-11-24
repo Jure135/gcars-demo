@@ -31,7 +31,7 @@ const GC = (() => {
   const NAV = [
     { href: "index.html", label: "Početna" },
     { href: "about.html", label: "O nama" },
-    { href: "collection.html", label: "Kolekcija" },
+    { href: "collection.html", label: "Ponuda" },
     { href: "recently-sold.html", label: "Nedavno prodano" },
     { href: "services.html", label: "Ekskluzivne usluge" },   // Komisijska prodaja maknuta iz izbornika (stranica i dalje postoji)
     { href: "contact.html", label: "Kontakt" }

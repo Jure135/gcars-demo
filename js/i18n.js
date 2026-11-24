@@ -78,6 +78,7 @@ const I18N = (() => {
     "SALON": "SHOWROOM",
     "PRODAJNI SALON": "SALES SHOWROOM",
     "PONUDA": "OFFER",
+    "Ponuda": "Offer",
     "Hrvatska": "Croatia",
     "Uvjeti poslovanja": "Terms and conditions",
     "Privatnost": "Privacy",
