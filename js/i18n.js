@@ -317,7 +317,7 @@ const I18N = (() => {
     "Zato kod nas pronalazite samo automobile koji ispunjavaju sva vaša očekivanja – i više od toga.":
       "That is why you will only find cars with us that meet all your expectations – and more.",
     "Pogledajte ponudu": "View our offer",
-    "Posjetite naš salon u Kaštel Lukšiću": "Visit our showroom in Kaštel Lukšić",
+    "Posjetite naš prodajni salon u Kaštel Lukšiću": "Visit our sales showroom in Kaštel Lukšić",
     "Ponudite vaše vozilo u zamjenu": "Offer your vehicle as a trade-in",
     // Opisi slika (alt), pristupačnost i nazivi modela
     "Glavna navigacija": "Main navigation",
