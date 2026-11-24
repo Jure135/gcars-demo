@@ -300,7 +300,7 @@ const I18N = (() => {
     "i po dogovoru": "and by appointment",
     "RADNO VRIJEME": "OPENING HOURS",
     "Odaberite marku": "Choose a brand",
-    "Auto salon G-CARS": "G-CARS car showroom",
+    "Auto salon": "Car showroom",
     "Nudimo neusporedivo iskustvo u pronalaženju savršenog automobila – od pouzdanih terenaca do luksuznih SUV-ova.":
       "We offer an unparalleled experience in finding the perfect car – from dependable off-roaders to luxury SUVs.",
     "U našem salonu u Kaštel Lukšiću svako vozilo je pažljivo odabrano i pripremljeno. Uvijek idemo korak dalje i uvjereni smo da ćete iz našeg salona otići više nego zadovoljni.":
