@@ -219,7 +219,7 @@ const GC = (() => {
           </div>
           <div class="col-6 col-md-3 col-lg-2">
             <h5>RADNO VRIJEME</h5>
-            <div class="gc-footer-text">${CONTACT.hours}<br>${CONTACT.hoursNote}</div>
+            <div class="gc-footer-text gc-footer-hours">${CONTACT.hours}<br>${CONTACT.hoursNote}</div>
           </div>
         </div>
         <div class="gc-footer-bottom">

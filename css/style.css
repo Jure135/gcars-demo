@@ -418,6 +418,7 @@ html.gc-i18n-pending body { visibility: hidden; }
 .gc-footer-logo img { height: 72px; width: auto; }   /* logo s natpisom AUTO SALON (img/logo-456-white.png) */
 @media (max-width: 767px) { .gc-footer-logo img { height: 56px; } }
 .gc-footer a:hover { color: var(--gc-tan); }
+.gc-footer-hours { text-transform: uppercase; }   /* radno vrijeme u podnožju velikim slovima */
 
 /* Poziv na kontakt – prvi stupac */
 .gc-footer-cta h3 { font-size: 1.6rem; margin-bottom: .8rem; }
